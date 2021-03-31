@@ -10,8 +10,21 @@ package za.ac.cput.adp2;
  * @author CPUT
  */
 public class Application {
+    //CPUT Learner management tool test.
+     public boolean Valid(String LearnerTool)  
+    {  
+        if(LearnerTool == "Blackboard")  
+        {  
+            return true;
+        }  
+        else  
+        {  
+        return false;  
+    }  
+        }  
     
     public static void main(String[] args) {
-        System.out.println("Hi!! =)");
+        System.out.println("Hi!! =)"); 
+        System.out.println(true);
     }
 }
